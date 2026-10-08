@@ -1,0 +1,147 @@
+openapi: 3.1.0
+info:
+  title: ПБ Мэтч Mini App API — проект контракта
+  version: 0.1.0
+  description: >-
+    Не реализованный API. Сессия определяет Telegram ID; привязка определяет
+    участника события. Контакт требует взаимности и отдельного согласия.
+    Глобальное или двустороннее согласие уточняется Q03a.
+servers:
+  - url: /api/miniapp/v1
+security:
+  - session: []
+paths:
+  /auth/telegram:
+    post:
+      security: []
+      summary: Проверить raw initData и выдать серверную сессию
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: false
+              required: [init_data]
+              properties:
+                init_data: {type: string, maxLength: 16384}
+      responses:
+        '200': {description: Сессия установлена; состояние привязки возвращено}
+        '401': {description: Подпись или время недействительны}
+        '429': {description: Лимит входов}
+  /me:
+    get:
+      summary: Собственная идентичность, профиль и доступные события
+      responses:
+        '200': {description: Собственные данные; без чужих контактов}
+        '401': {description: Нет действующей сессии}
+  /events/{event_id}/participants:
+    parameters:
+      - $ref: '#/components/parameters/EventId'
+    get:
+      summary: Карточки допустимых участников; без контактов
+      description: Сервер проверяет допуск и видимость. Фильтры уточняются Q05a.
+      responses:
+        '200':
+          description: Карточки
+          content:
+            application/json:
+              schema:
+                type: array
+                items: {$ref: '#/components/schemas/PublicCard'}
+        '403': {description: Участие ещё не подтверждено}
+  /events/{event_id}/likes/{participant_id}:
+    parameters:
+      - $ref: '#/components/parameters/EventId'
+      - name: participant_id
+        in: path
+        required: true
+        schema: {type: integer, minimum: 1}
+    put:
+      summary: Поставить лайк цели, источник определяется из сессии
+      description: Идемпотентно. При новом мэтче атомарно создаётся эпизод пары.
+      responses:
+        '200': {description: Лайк сохранён; актуальная взаимность без контакта}
+        '403': {description: Нет допуска или цель недоступна}
+        '409': {description: Голосование закрыто или конфликт версии}
+    delete:
+      summary: Снять лайк (правило обратимости уточняется Q09)
+      responses:
+        '200': {description: Лайк снят; эпизод может завершиться}
+        '403': {description: Нет прав}
+        '409': {description: Голосование закрыто}
+  /events/{event_id}/matches:
+    parameters:
+      - $ref: '#/components/parameters/EventId'
+    get:
+      summary: Текущие взаимности своего участника без контактов
+      responses:
+        '200': {description: Эпизоды пары и состояние собственного согласия}
+        '403': {description: Нет допуска}
+  /matches/{episode_id}/contact-consent:
+    parameters:
+      - $ref: '#/components/parameters/EpisodeId'
+    put:
+      summary: Отдельно разрешить выдачу собственного контакта (черновик Q03a)
+      description: >-
+        Согласие связано с эпизодом, получателем и версией контакта.
+        Клиент не может дать согласие за другого участника.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: false
+              required: [contact_revision, consent_text_version]
+              properties:
+                contact_revision: {type: integer, minimum: 1}
+                consent_text_version: {type: string}
+      responses:
+        '200': {description: Собственное согласие зафиксировано}
+        '403': {description: Не участник этой пары}
+        '409': {description: Нет взаимности, эпизод завершён или версия устарела}
+    delete:
+      summary: Отозвать своё согласие; уже увиденный контакт не отзывается
+      responses:
+        '200': {description: Новая выдача прекращена}
+        '403': {description: Не владелец согласия}
+  /matches/{episode_id}/contact:
+    parameters:
+      - $ref: '#/components/parameters/EpisodeId'
+    get:
+      summary: Получить контакт другой стороны после всех проверок
+      responses:
+        '200': {description: Разрешённый актуальный контакт; Cache-Control no-store}
+        '403': {description: Нет явного согласия, взаимности или доступа}
+        '409': {description: Политика согласия ещё не настроена}
+components:
+  securitySchemes:
+    session:
+      type: apiKey
+      in: cookie
+      name: pbmatch_session
+      description: HTTPS HttpOnly cookie; изменяющие запросы требуют Origin/CSRF проверки
+  parameters:
+    EventId:
+      name: event_id
+      in: path
+      required: true
+      schema: {type: integer, minimum: 1}
+    EpisodeId:
+      name: episode_id
+      in: path
+      required: true
+      schema: {type: string}
+  schemas:
+    PublicCard:
+      type: object
+      additionalProperties: false
+      required: [participant_id, display_name, badge_number, description, photo_url, liked_by_me]
+      properties:
+        participant_id: {type: integer}
+        display_name: {type: string}
+        badge_number: {type: integer}
+        description: {type: string}
+        photo_url: {type: string, description: Короткая подписанная ссылка после проверки доступа}
+        liked_by_me: {type: boolean}

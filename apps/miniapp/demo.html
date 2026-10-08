@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="color-scheme" content="dark">
+<meta name="robots" content="noindex,nofollow"><title>ПБ Мэтч · макет на основе оригинала</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="review.css?v=motion-fix-20261008"><link rel="stylesheet" href="swipe.css?v=classic-colors-20261008"><script src="demo.js?v=classic-close-20261008" defer></script><script src="review-notes.js" defer></script>
+</head>
+<body>
+<aside class="demo-banner" aria-label="Панель проверки"><a href="./">← К стенду</a><button type="button" class="review-launch" data-review-notes>Замечания <span data-review-count>0</span></button><span class="review-demo-status">Частичный макет · вымышленные гости · полный путь ещё собирается</span></aside>
+<div id="demo-mockup-caption" class="mockup-caption demo-mockup-caption" data-mockup-label="D02 — Карточки: свайпы"><span class="mockup-code">D02</span><span class="mockup-title">Карточки: свайпы</span></div>
+<main class="screen">
+<header class="bar"><a class="mark" href="#rooms" id="home-link">ПБ<span>·</span>мэтч</a></header>
+<div class="body">
+<section id="rooms-panel" aria-labelledby="rooms-title">
+<h1 class="title" id="rooms-title" tabindex="-1">Комнаты</h1><p class="sub">Где ты можешь знакомиться прямо сейчас</p>
+<article class="room room--live"><div class="pulse"><i aria-hidden="true"></i>Ты здесь</div><h2 class="room-name">ПБ.Миксер</h2><p class="room-meta">3 гостя с анкетой · голосование идёт</p><div class="row"><span class="room-meta" id="room-match-summary">Пока без мэтчей</span><button class="pill pill--yellow" data-open="people">Смотреть</button></div></article>
+<div class="hr"></div><p class="section-label">Твои знакомства</p>
+<article class="room room--surface"><p class="room-kicker">Взаимные симпатии</p><h2 class="room-name">Твои мэтчи</h2><p class="room-meta">Появляются сразу, когда вы нравитесь друг другу.</p><div class="row"><span class="room-meta" id="hub-match-summary">Пока без мэтчей</span><button class="pill pill--ghost" data-open="matches">Смотреть</button></div></article>
+<p class="quiet-note">Лайк не передаёт контакт. Если симпатия взаимна, выдачу контакта нужно разрешить отдельно.</p>
+</section>
+<section id="people-panel" hidden aria-labelledby="people-title">
+  <div class="swipe-heading"><div><h1 class="title" id="people-title" tabindex="-1">Знакомства</h1><p class="swipe-room">ПБ.Миксер</p></div><span id="card-progress" class="card-progress"></span></div>
+  <div id="cards" class="swipe-deck" aria-label="Карточка гостя"></div>
+  <div id="swipe-actions" class="swipe-actions" aria-label="Твоя реакция">
+    <button type="button" id="dislike" class="reaction reaction--nope" aria-label="Дизлайк"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    <button type="button" id="like" class="reaction reaction--like" aria-label="Лайк"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.7 4.9a5.2 5.2 0 0 0-7.3 0L12 6.3l-1.4-1.4a5.2 5.2 0 0 0-7.3 7.4L12 21l8.7-8.7a5.2 5.2 0 0 0 0-7.4Z"/></svg></button>
+  </div>
+</section>
+<section id="matches-panel" hidden aria-labelledby="matches-title"><h1 class="title" id="matches-title" tabindex="-1">Мэтчи</h1><p class="sub">Люди, которым ты тоже понравился</p><div id="matches"></div></section>
+<section id="profile-panel" hidden aria-labelledby="profile-title"><h1 class="title" id="profile-title" tabindex="-1">Профиль</h1><p class="sub">Фото и несколько слов о себе</p><div class="profile-photo portrait" id="profile-photo"><span class="initials">Я</span><small>Твоя фотография</small></div><input type="file" id="photo-input" accept="image/jpeg,image/png,image/webp" hidden><div class="profile-actions"><button class="pill pill--ghost" id="choose-photo">Выбрать фото</button></div><label class="field-label" for="profile-description">О себе</label><textarea class="profile-text" id="profile-description" maxlength="400" placeholder="Что тебе нравится? О чём любишь говорить?"></textarea><div class="row"><span class="room-meta">До 400 символов</span><button class="pill pill--yellow" id="save-profile">Сохранить</button></div></section>
+</div>
+<p id="status" class="status" role="status" aria-live="polite"></p>
+<nav class="tabs" aria-label="Разделы">
+<button class="tab on" data-tab="people" aria-current="page"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="4"/><path d="M9 16h6M9 12h6"/></svg>Знакомства</button>
+<button class="tab" data-tab="matches"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 5.7c-2-2.1-5.2-2.1-7.2 0L12 7l-1.3-1.3c-2-2.1-5.2-2.1-7.2 0s-2 5.5 0 7.6L12 21l8.5-7.7c2-2.1 2-5.5 0-7.6Z"/></svg>Мэтчи<span class="dot" id="match-count" hidden>0</span></button>
+<button class="tab" data-tab="profile"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg>Профиль</button>
+</nav>
+</main>
+<dialog id="guest-details" class="guest-dialog" aria-labelledby="guest-details-name">
+  <div class="guest-dialog-header"><p>О госте</p><button type="button" id="guest-details-close" class="guest-dialog-close" aria-label="Закрыть информацию о госте" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+  <div class="guest-dialog-content"><h2 id="guest-details-name"></h2><p id="guest-details-description"></p></div>
+</dialog>
+<details class="demo-controls"><summary>Управление макетом</summary><p>Свайп вправо или сердце — лайк, влево или крест — дизлайк. Ответные лайки задаются здесь. Профиль и реакции живут только в памяти страницы; фото никуда не отправляется. Правило согласия выбрано: каждый отдельно разрешает передать свой контакт конкретному взаимному мэтчу. В этом макете передача ещё не реализована. Выбор аудитории уточняется.</p><p>Повтор просмотренных карточек — временная возможность стенда для проверки. Как возвращать карточки и сколько действует дизлайк в рабочем приложении, ещё не согласовано (Q09). Повтор сохраняет текущие реакции; «Сбросить макет» очищает их и профиль.</p><p><a class="review-source-link" href="reference/original-hub.html" target="_blank" rel="noopener">Исходный дизайн ↗</a></p><div id="reciprocal-controls"></div><button id="reset" class="pill pill--ghost">Сбросить макет</button></details>
+</body></html>

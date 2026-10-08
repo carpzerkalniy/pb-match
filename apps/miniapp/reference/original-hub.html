@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ПБ Мэтч — Хаб (экран 1)</title>
+<style>
+  :root{
+    --pb-orange:#FF3E00;
+    --pb-pink:#FB3399;
+    --pb-yellow:#FDEB95;
+    --pb-ink:#140D12;
+    --pb-surface:#1F141C;
+    --pb-surface-2:#180F16;
+    --pb-line:rgba(255,255,255,.09);
+    --pb-text:#F0E6F4;
+    --pb-muted:rgba(240,230,244,.52);
+    --pb-dim:rgba(240,230,244,.34);
+    --grad-brand:linear-gradient(180deg,#FF3E00 0%,#FB3399 100%);
+    --font-head:'Halvar Breitschrift','Arial Black',Arial,sans-serif;
+    --font-body:'Halvar Breitschrift',Arial,system-ui,sans-serif;
+    --r-card:22px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:#0B070A;
+    font-family:var(--font-body);
+    font-weight:300;
+    color:var(--pb-text);
+    padding:28px 16px 64px;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .page-head{max-width:1180px;margin:0 auto 26px;padding-inline:4px}
+  .page-head h1{
+    font-family:var(--font-head);font-weight:900;text-transform:uppercase;
+    letter-spacing:.02em;font-size:19px;line-height:1.2;
+  }
+  .page-head p{color:var(--pb-muted);font-size:13px;margin-top:8px;max-width:640px;line-height:1.55}
+
+  .rack{
+    max-width:1180px;margin:0 auto;
+    display:flex;flex-wrap:wrap;gap:34px;justify-content:center;align-items:flex-start;
+  }
+  .frame{width:340px;flex:0 0 auto}
+  .frame > .cap{
+    font-family:var(--font-head);font-weight:900;text-transform:uppercase;
+    font-size:11px;letter-spacing:.08em;color:var(--pb-yellow);
+    margin-bottom:10px;padding-left:4px;
+  }
+  .frame > .note{color:var(--pb-dim);font-size:12px;line-height:1.5;margin-top:12px;padding-inline:4px}
+
+  /* ---------- телефон ---------- */
+  .screen{
+    background:var(--pb-ink);
+    border:1px solid var(--pb-line);
+    border-radius:30px;
+    overflow:hidden;
+    display:flex;flex-direction:column;
+    min-height:660px;
+  }
+  .bar{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 18px 10px;
+  }
+  .mark{
+    font-family:var(--font-head);font-weight:900;font-size:15px;
+    letter-spacing:.06em;text-transform:uppercase;
+  }
+  .mark span{color:var(--pb-orange)}
+  .ava{width:30px;height:30px;border-radius:50%;background:var(--grad-brand);
+       border:2px solid rgba(255,255,255,.14)}
+
+  .body{flex:1;padding:6px 18px 20px;overflow:hidden}
+  h2.title{
+    font-family:var(--font-head);font-weight:900;text-transform:uppercase;
+    font-size:26px;letter-spacing:.02em;margin:8px 0 4px;
+  }
+  .sub{color:var(--pb-muted);font-size:12.5px;margin-bottom:18px}
+
+  /* ---------- карточка комнаты ---------- */
+  .room{
+    border-radius:var(--r-card);
+    padding:17px 18px;
+    margin-bottom:13px;
+    position:relative;
+    display:block;
+  }
+
+  /* живая вечеринка */
+  .room--live{background:var(--grad-brand);color:#fff}
+  .room--live .room-kicker{color:rgba(255,255,255,.82)}
+  .room--live .room-meta{color:rgba(255,255,255,.9)}
+
+  .pulse{
+    display:inline-flex;align-items:center;gap:7px;
+    font-family:var(--font-head);font-weight:900;font-size:10px;
+    letter-spacing:.1em;text-transform:uppercase;
+  }
+  .pulse i{
+    width:7px;height:7px;border-radius:50%;background:var(--pb-yellow);
+    box-shadow:0 0 0 0 rgba(253,235,149,.7);animation:beat 2s infinite;
+  }
+  @keyframes beat{
+    70%{box-shadow:0 0 0 9px rgba(253,235,149,0)}
+    100%{box-shadow:0 0 0 0 rgba(253,235,149,0)}
+  }
+  @media (prefers-reduced-motion:reduce){.pulse i{animation:none}}
+
+  .room-name{
+    font-family:var(--font-head);font-weight:900;text-transform:uppercase;
+    font-size:19px;line-height:1.15;letter-spacing:.01em;margin:9px 0 7px;
+  }
+  .room-kicker{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--pb-dim);
+               font-family:var(--font-head);font-weight:900}
+  .room-meta{font-size:12.5px;color:var(--pb-muted);line-height:1.45}
+
+  .row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:14px}
+  .pill{
+    font-family:var(--font-head);font-weight:900;text-transform:uppercase;
+    font-size:11.5px;letter-spacing:.05em;
+    border-radius:999px;padding:10px 18px;border:0;cursor:pointer;white-space:nowrap;
+  }
+  .pill--yellow{background:var(--pb-yellow);color:var(--pb-orange)}
+  .pill--ghost{background:transparent;border:1.5px solid var(--pb-yellow);color:var(--pb-yellow)}
+  .pill--orange{background:var(--pb-orange);color:#fff}
+
+  /* клуб */
+  .room--club{background:var(--pb-surface);border:1px solid var(--pb-line)}
+  .room--club .room-name{color:var(--pb-yellow)}
+
+  /* закрытая */
+  .room--locked{background:var(--pb-surface-2);border:1px dashed rgba(255,255,255,.13)}
+  .room--locked .room-name{color:rgba(240,230,244,.4)}
+  .room--locked .room-meta{color:var(--pb-dim)}
+  .lock{font-size:13px;opacity:.5}
+
+  /* ---------- блок кода ---------- */
+  .code-block{
+    border:1.5px dashed rgba(255,62,0,.5);
+    border-radius:var(--r-card);
+    padding:18px;text-align:center;margin-bottom:13px;
+    background:rgba(255,62,0,.05);
+  }
+  .code-block .h{
+    font-family:var(--font-head);font-weight:900;text-transform:uppercase;
+    font-size:14px;letter-spacing:.02em;margin-bottom:6px;
+  }
+  .code-block .p{font-size:12px;color:var(--pb-muted);line-height:1.5;margin-bottom:14px}
+  .slots{display:flex;gap:7px;justify-content:center;margin-bottom:14px}
+  .slots b{
+    width:34px;height:44px;border-radius:10px;
+    background:rgba(255,255,255,.05);border:1px solid var(--pb-line);
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--font-head);font-weight:900;font-size:19px;color:var(--pb-text);
+  }
+  .slots b.empty{color:var(--pb-dim)}
+
+  /* ---------- пусто ---------- */
+  .empty{
+    text-align:center;padding:26px 10px 30px;
+  }
+  .empty .em{
+    font-family:var(--font-head);font-weight:900;text-transform:uppercase;
+    font-size:15px;color:var(--pb-muted);margin-bottom:8px;
+  }
+  .empty .ep{font-size:12.5px;color:var(--pb-dim);line-height:1.55;max-width:230px;margin:0 auto}
+
+  .hr{height:1px;background:var(--pb-line);margin:20px 0 16px}
+  .section-label{
+    font-family:var(--font-head);font-weight:900;text-transform:uppercase;
+    font-size:10.5px;letter-spacing:.1em;color:var(--pb-dim);margin-bottom:11px;
+  }
+
+  /* ---------- таббар ---------- */
+  .tabs{
+    display:flex;border-top:1px solid var(--pb-line);
+    background:rgba(0,0,0,.35);
+  }
+  .tab{
+    flex:1;text-align:center;padding:13px 4px 17px;
+    font-family:var(--font-head);font-weight:900;text-transform:uppercase;
+    font-size:10px;letter-spacing:.06em;color:var(--pb-dim);
+    position:relative;
+  }
+  .tab.on{color:var(--pb-orange)}
+  .tab .dot{
+    position:absolute;top:9px;left:50%;margin-left:12px;
+    background:var(--pb-pink);color:#fff;border-radius:999px;
+    font-size:9px;padding:1px 5px;letter-spacing:0;
+  }
+  .tab .ic{display:block;font-size:15px;margin-bottom:5px;font-weight:400}
+
+  @media (max-width:420px){
+    body{padding:20px 10px 48px}
+    .frame{width:100%}
+    .rack{gap:26px}
+  }
+</style>
+</head>
+<body>
+
+<div class="page-head">
+  <h1>Экран 1 · Хаб — три состояния</h1>
+  <p>Комнаты — единственная навигация. Клуб открыт всегда, вечеринок может быть несколько сразу, мэтчи живут отдельной вкладкой и комнату переживают. Шрифт Halvar не подгружен (коммерческий) — стоит Arial Black как подмена начертания.</p>
+</div>
+
+<div class="rack">
+
+  <!-- ============ 1 · НОВИЧОК ============ -->
+  <div class="frame">
+    <div class="cap">1 · Новичок, вечеринок нет</div>
+    <div class="screen">
+      <div class="bar">
+        <div class="mark">ПБ<span>·</span>мэтч</div>
+        <div class="ava"></div>
+      </div>
+      <div class="body">
+        <h2 class="title">Комнаты</h2>
+        <div class="sub">Где ты можешь знакомиться прямо сейчас</div>
+
+        <div class="code-block">
+          <div class="h">Ты на вечеринке?</div>
+          <div class="p">Введи код с бейджа или таблички — откроется комната гостей этого вечера.</div>
+          <div class="slots"><b class="empty">·</b><b class="empty">·</b><b class="empty">·</b><b class="empty">·</b></div>
+          <button class="pill pill--orange">Сканировать QR</button>
+        </div>
+
+        <div class="hr"></div>
+        <div class="section-label">Открыто всегда</div>
+
+        <div class="room room--club">
+          <div class="room-kicker">Клуб</div>
+          <div class="room-name">Люди ПБ</div>
+          <div class="room-meta">Все, кто завёл анкету. Без кода и без даты.</div>
+          <div class="row">
+            <span class="room-meta">1 240 анкет</span>
+            <button class="pill pill--ghost">Войти</button>
+          </div>
+        </div>
+      </div>
+      <div class="tabs">
+        <div class="tab on"><span class="ic">◎</span>Комнаты</div>
+        <div class="tab"><span class="ic">♥</span>Мэтчи</div>
+        <div class="tab"><span class="ic">☺</span>Профиль</div>
+      </div>
+    </div>
+    <div class="note">Пустой хаб не выглядит поломкой: код — первое действие, клуб держит человека до вечеринки.</div>
+  </div>
+
+  <!-- ============ 2 · ОДНА ВЕЧЕРИНКА ============ -->
+  <div class="frame">
+    <div class="cap">2 · Зачекинен на одной</div>
+    <div class="screen">
+      <div class="bar">
+        <div class="mark">ПБ<span>·</span>мэтч</div>
+        <div class="ava"></div>
+      </div>
+      <div class="body">
+        <h2 class="title">Комнаты</h2>
+        <div class="sub">Где ты можешь знакомиться прямо сейчас</div>
+
+        <div class="room room--live">
+          <div class="pulse"><i></i>Ты здесь</div>
+          <div class="room-name">Искротека:<br>Neon Dreams</div>
+          <div class="room-meta">213 гостей с анкетой · до 05:00</div>
+          <div class="row">
+            <span class="room-meta">♥ 2 мэтча за вечер</span>
+            <button class="pill pill--yellow">Смотреть</button>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+        <div class="section-label">Открыто всегда</div>
+
+        <div class="room room--club">
+          <div class="room-kicker">Клуб</div>
+          <div class="room-name">Люди ПБ</div>
+          <div class="room-meta">Все, кто завёл анкету. Без кода и без даты.</div>
+          <div class="row">
+            <span class="room-meta">1 240 анкет</span>
+            <button class="pill pill--ghost">Войти</button>
+          </div>
+        </div>
+      </div>
+      <div class="tabs">
+        <div class="tab on"><span class="ic">◎</span>Комнаты</div>
+        <div class="tab"><span class="ic">♥</span>Мэтчи<span class="dot">2</span></div>
+        <div class="tab"><span class="ic">☺</span>Профиль</div>
+      </div>
+    </div>
+    <div class="note">Живая комната всегда первая и единственная градиентная — ошибиться, куда идти, невозможно.</div>
+  </div>
+
+  <!-- ============ 3 · ДВЕ + ЗАКРЫТАЯ ============ -->
+  <div class="frame">
+    <div class="cap">3 · Две вечеринки + закрытая</div>
+    <div class="screen">
+      <div class="bar">
+        <div class="mark">ПБ<span>·</span>мэтч</div>
+        <div class="ava"></div>
+      </div>
+      <div class="body">
+        <h2 class="title">Комнаты</h2>
+        <div class="sub">Где ты можешь знакомиться прямо сейчас</div>
+
+        <div class="room room--live">
+          <div class="pulse"><i></i>Ты здесь</div>
+          <div class="room-name">Искротека:<br>Neon Dreams</div>
+          <div class="room-meta">213 гостей с анкетой · до 05:00</div>
+          <div class="row">
+            <span class="room-meta">♥ 2 мэтча за вечер</span>
+            <button class="pill pill--yellow">Смотреть</button>
+          </div>
+        </div>
+
+        <div class="room room--live">
+          <div class="pulse"><i></i>Ты здесь</div>
+          <div class="room-name">Тёплый<br>миксер</div>
+          <div class="room-meta">28 гостей с анкетой · до 23:30</div>
+          <div class="row">
+            <span class="room-meta">Пока без мэтчей</span>
+            <button class="pill pill--yellow">Смотреть</button>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+        <div class="section-label">Открыто всегда</div>
+
+        <div class="room room--club">
+          <div class="room-kicker">Клуб</div>
+          <div class="room-name">Люди ПБ</div>
+          <div class="room-meta">Все, кто завёл анкету.</div>
+          <div class="row">
+            <span class="room-meta">1 240 анкет</span>
+            <button class="pill pill--ghost">Войти</button>
+          </div>
+        </div>
+
+        <div class="room room--locked">
+          <div class="room-kicker"><span class="lock">🔒</span> Закрыта</div>
+          <div class="room-name">Резиденты</div>
+          <div class="room-meta">Откроется после третьей вечеринки. У тебя одна.</div>
+        </div>
+      </div>
+      <div class="tabs">
+        <div class="tab on"><span class="ic">◎</span>Комнаты</div>
+        <div class="tab"><span class="ic">♥</span>Мэтчи<span class="dot">2</span></div>
+        <div class="tab"><span class="ic">☺</span>Профиль</div>
+      </div>
+    </div>
+    <div class="note">Закрытая комната показана, но не кликается, и прямо говорит условие. Третье состояние — «не видна вовсе» — просто отсутствует в списке.</div>
+  </div>
+
+</div>
+</body>
+</html>

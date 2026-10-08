@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex,nofollow">
+  <title>ПБ Мэтч · Сценарии и экраны</title>
+  <link rel="stylesheet" href="./gallery.css">
+  <link rel="stylesheet" href="./screens.css">
+  <link rel="stylesheet" href="./situation-map.css">
+  <link rel="stylesheet" href="../review.css?v=swipes-20261008">
+  <script src="../review-notes.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="ПБ Мэтч — стенд для проверки">ПБ<span>·мэтч</span></a>
+    <nav aria-label="Материалы проекта"><a href="../">← К стенду</a><a href="../demo.html">Текущий макет ↗</a><a href="../reference/original-hub.html">Основа дизайна ↗</a><button type="button" class="review-launch" data-review-notes>Замечания <span data-review-count>0</span></button></nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow">Telegram Mini App · карта пользовательского пути</p><h1 id="page-title">Сценарии<br><span>и их экраны</span></h1>
+        <p class="intro-copy">Первый запуск: Telegram-вход → базовая комната без ключа → профиль и участие → карточки по одной → мэтчи → отдельная передача контакта. Новый гость входит в ту же комнату без ключа; она остаётся после вечеринки. Ключи только для следующих комнат, их макеты вынесены в варианты.</p></div>
+      <aside class="intro-note"><span class="note-dot"></span><strong>Материал для обсуждения</strong><p>Это макеты с вымышленными гостями. Новые экраны продолжают оформление исходного хаба. Варианты ещё не становятся требованиями.</p><p>Переключай шаги кнопками рядом с экраном. Кнопки внутри телефона показывают будущий интерфейс.</p><p>Записывай замечания к сценарию кнопкой снаружи телефона. Они сохраняются только в этом браузере; для передачи скопируй или скачай текст.</p></aside>
+    </section>
+    <div id="load-error" class="error-panel" role="alert" hidden></div>
+    <nav id="page-views" class="page-views" aria-label="Представление сценариев" hidden>
+      <button type="button" data-page-view="map" aria-pressed="true">Карта ситуаций</button>
+      <button type="button" data-page-view="catalog" aria-pressed="false">Подробный каталог</button>
+    </nav>
+    <section id="situation-map" aria-label="Карта ситуаций" hidden></section>
+    <section id="workspace" class="workspace" aria-label="Каталог сценариев" hidden>
+      <aside class="catalog">
+        <div class="catalog-heading"><h2>Выбрать сценарий</h2><span id="total-count" class="count"></span></div>
+        <label for="scope">Набор сценариев</label><select id="scope"><option value="mvp">Текущий MVP</option><option value="archive">Архив и невыбранные варианты</option><option value="all">MVP и архив вместе</option></select>
+        <label for="search">Поиск по пути и вопросам</label><input id="search" type="search" placeholder="Например: контакт, фото, Q03a" autocomplete="off">
+        <div class="filter-grid"><div><label for="category">Этап пути</label><select id="category"><option value="all">Все этапы</option></select></div><div><label for="status">Статус</label><select id="status"><option value="all">Все статусы</option><option value="confirmed">Подтверждённая основа</option><option value="mixed">Есть открытые решения</option><option value="proposal">Вариант для обсуждения</option></select></div></div>
+        <label class="checkbox-label"><input id="questions-only" type="checkbox">Только с открытыми вопросами</label>
+        <div class="list-caption"><span id="filtered-count" aria-live="polite"></span><button id="reset-filters" type="button">Сбросить</button></div>
+        <div id="scenario-list" class="scenario-list"></div>
+      </aside>
+      <article id="scenario-detail" class="scenario-detail" aria-label="Выбранный сценарий"></article>
+    </section>
+    <p id="loading" class="loading" role="status">Собираем карту сценариев…</p>
+  </main>
+  <footer>ПБ Мэтч · стенд для обсуждения · <span id="version-label">по текущему ТЗ</span></footer>
+  <script type="module" src="./gallery.js?v=base-room-20261008"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "pb-match-prototype",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Development checks for the fictional PB Match prototype",
+  "scripts": {
+    "check:demo": "node --check apps/miniapp/demo.js",
+    "check:scenarios": "node apps/miniapp/scenarios/verify.mjs",
+    "qa:swipe": "node tools/check_swipe_browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

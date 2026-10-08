@@ -1,0 +1,1514 @@
+[
+  {
+    "time": -1.1999999910594852,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 15.500000008940333,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 32.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 48.70000000894106,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 25.950334548950195,
+        "y": 125.7475357055664,
+        "width": 290.5567932128906,
+        "height": 295.5128173828125,
+        "opacity": 1,
+        "transform": "matrix(0.999962, 0.0087641, -0.0087641, 0.999962, 10.33, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 65.40000000894088,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 25.950334548950195,
+        "y": 125.7475357055664,
+        "width": 290.5567932128906,
+        "height": 295.5128173828125,
+        "opacity": 1,
+        "transform": "matrix(0.999962, 0.0087641, -0.0087641, 0.999962, 10.33, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 82.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 25.950334548950195,
+        "y": 125.7475357055664,
+        "width": 290.5567932128906,
+        "height": 295.5128173828125,
+        "opacity": 1,
+        "transform": "matrix(0.999962, 0.0087641, -0.0087641, 0.999962, 10.33, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 98.70000000894106,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 35.911773681640625,
+        "y": 124.51429748535156,
+        "width": 293.0913391113281,
+        "height": 298.0029296875,
+        "opacity": 1,
+        "transform": "matrix(0.999846, 0.0175275, -0.0175275, 0.999846, 20.66, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 115.50000000894033,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 35.911773681640625,
+        "y": 124.51429748535156,
+        "width": 293.0913391113281,
+        "height": 298.0029296875,
+        "opacity": 1,
+        "transform": "matrix(0.999846, 0.0175275, -0.0175275, 0.999846, 20.66, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 132.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 35.911773681640625,
+        "y": 124.51429748535156,
+        "width": 293.0913391113281,
+        "height": 298.0029296875,
+        "opacity": 1,
+        "transform": "matrix(0.999846, 0.0175275, -0.0175275, 0.999846, 20.66, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 148.80000000894051,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 45.88433074951172,
+        "y": 123.30037689208984,
+        "width": 295.6033020019531,
+        "height": 300.4701232910156,
+        "opacity": 1,
+        "transform": "matrix(0.999654, 0.0262896, -0.0262896, 0.999654, 30.99, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 165.40000000894088,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 45.88433074951172,
+        "y": 123.30037689208984,
+        "width": 295.6033020019531,
+        "height": 300.4701232910156,
+        "opacity": 1,
+        "transform": "matrix(0.999654, 0.0262896, -0.0262896, 0.999654, 30.99, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 182.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 55.86803436279297,
+        "y": 122.10586547851562,
+        "width": 298.09259033203125,
+        "height": 302.9142761230469,
+        "opacity": 1,
+        "transform": "matrix(0.999386, 0.0350497, -0.0350497, 0.999386, 41.32, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 198.70000000894106,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 55.86803436279297,
+        "y": 122.10586547851562,
+        "width": 298.09259033203125,
+        "height": 302.9142761230469,
+        "opacity": 1,
+        "transform": "matrix(0.999386, 0.0350497, -0.0350497, 0.999386, 41.32, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 215.40000000894088,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 65.8629150390625,
+        "y": 120.93087005615234,
+        "width": 300.5589904785156,
+        "height": 305.33514404296875,
+        "opacity": 1,
+        "transform": "matrix(0.99904, 0.0438071, -0.0438071, 0.99904, 51.65, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 232.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 65.8629150390625,
+        "y": 120.93087005615234,
+        "width": 300.5589904785156,
+        "height": 305.33514404296875,
+        "opacity": 1,
+        "transform": "matrix(0.99904, 0.0438071, -0.0438071, 0.99904, 51.65, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 248.80000000894051,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 75.86898803710938,
+        "y": 119.77546691894531,
+        "width": 303.0022888183594,
+        "height": 307.73260498046875,
+        "opacity": 1,
+        "transform": "matrix(0.998618, 0.0525611, -0.0525611, 0.998618, 61.98, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 265.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 75.86898803710938,
+        "y": 119.77546691894531,
+        "width": 303.0022888183594,
+        "height": 307.73260498046875,
+        "opacity": 1,
+        "transform": "matrix(0.998618, 0.0525611, -0.0525611, 0.998618, 61.98, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 282.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 85.88628387451172,
+        "y": 118.63973999023438,
+        "width": 305.4223327636719,
+        "height": 310.10638427734375,
+        "opacity": 1,
+        "transform": "matrix(0.998119, 0.0613111, -0.0613111, 0.998119, 72.31, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 298.8000000089405,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 85.88628387451172,
+        "y": 118.63973999023438,
+        "width": 305.4223327636719,
+        "height": 310.10638427734375,
+        "opacity": 1,
+        "transform": "matrix(0.998119, 0.0613111, -0.0613111, 0.998119, 72.31, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 315.50000000894033,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 95.91482543945312,
+        "y": 117.52379608154297,
+        "width": 307.81890869140625,
+        "height": 312.4563293457031,
+        "opacity": 1,
+        "transform": "matrix(0.997543, 0.0700563, -0.0700563, 0.997543, 82.64, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 332.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 95.91482543945312,
+        "y": 117.52379608154297,
+        "width": 307.81890869140625,
+        "height": 312.4563293457031,
+        "opacity": 1,
+        "transform": "matrix(0.997543, 0.0700563, -0.0700563, 0.997543, 82.64, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 348.8000000089405,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 95.91482543945312,
+        "y": 117.52379608154297,
+        "width": 307.81890869140625,
+        "height": 312.4563293457031,
+        "opacity": 1,
+        "transform": "matrix(0.997543, 0.0700563, -0.0700563, 0.997543, 82.64, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 365.50000000894033,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 95.91482543945312,
+        "y": 117.52379608154297,
+        "width": 307.81890869140625,
+        "height": 312.4563293457031,
+        "opacity": 1,
+        "transform": "matrix(0.997543, 0.0700563, -0.0700563, 0.997543, 82.64, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 382.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-dragging",
+        "x": 95.91482543945312,
+        "y": 117.52379608154297,
+        "width": 307.81890869140625,
+        "height": 312.4563293457031,
+        "opacity": 1,
+        "transform": "matrix(0.997543, 0.0700563, -0.0700563, 0.997543, 82.64, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 398.70000000894106,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 95.91482543945312,
+        "y": 117.52379608154297,
+        "width": 307.81890869140625,
+        "height": 312.4563293457031,
+        "opacity": 1,
+        "transform": "matrix(0.997543, 0.0700563, -0.0700563, 0.997543, 82.64, 0)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 21.760009765625,
+        "y": 145.9619903564453,
+        "width": 276.47998046875,
+        "height": 281.280029296875,
+        "opacity": 0.65,
+        "transform": "matrix(0.96, 0, 0, 0.96, 0, 9)"
+      }
+    ]
+  },
+  {
+    "time": 415.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 160.65419006347656,
+        "y": 114.92019653320312,
+        "width": 325.970947265625,
+        "height": 330.22650146484375,
+        "opacity": 0.946707,
+        "transform": "matrix(0.99027, 0.139157, -0.139157, 0.99027, 149.369, 5.53566)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 20.630081176757812,
+        "y": 142.2423095703125,
+        "width": 278.7398681640625,
+        "height": 283.5790710449219,
+        "opacity": 0.668652,
+        "transform": "matrix(0.967847, 0, 0, 0.967847, 0, 7.2345)"
+      }
+    ]
+  },
+  {
+    "time": 432.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 216.7164306640625,
+        "y": 113.71189880371094,
+        "width": 340.2803955078125,
+        "height": 344.1922607421875,
+        "opacity": 0.836746,
+        "transform": "matrix(0.980229, 0.197865, -0.197865, 0.980229, 206.566, 10.2805)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 19.546005249023438,
+        "y": 138.6735076904297,
+        "width": 280.907958984375,
+        "height": 285.78485107421875,
+        "opacity": 0.707139,
+        "transform": "matrix(0.975375, 0, 0, 0.975375, 0, 5.54064)"
+      }
+    ]
+  },
+  {
+    "time": 448.70000000894106,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 260.7371826171875,
+        "y": 113.43976593017578,
+        "width": 350.58905029296875,
+        "height": 354.2235412597656,
+        "opacity": 0.686233,
+        "transform": "matrix(0.970001, 0.243102, -0.243102, 0.970001, 251.102, 13.9751)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 18.643875122070312,
+        "y": 135.70364379882812,
+        "width": 282.7122802734375,
+        "height": 287.6204528808594,
+        "opacity": 0.759819,
+        "transform": "matrix(0.98164, 0, 0, 0.98164, 0, 4.13105)"
+      }
+    ]
+  },
+  {
+    "time": 465.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 294.2088317871094,
+        "y": 113.6282958984375,
+        "width": 357.8781433105469,
+        "height": 361.29791259765625,
+        "opacity": 0.531954,
+        "transform": "matrix(0.960888, 0.276936, -0.276936, 0.960888, 284.748, 16.7663)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 17.954254150390625,
+        "y": 133.4334259033203,
+        "width": 284.09149169921875,
+        "height": 289.023681640625,
+        "opacity": 0.813816,
+        "transform": "matrix(0.986429, 0, 0, 0.986429, 0, 3.05352)"
+      }
+    ]
+  },
+  {
+    "time": 482.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 319.2648010253906,
+        "y": 113.99137878417969,
+        "width": 363.0232849121094,
+        "height": 366.28033447265625,
+        "opacity": 0.399837,
+        "transform": "matrix(0.953332, 0.301924, -0.301924, 0.953332, 309.814, 18.8457)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 17.44732666015625,
+        "y": 131.76461791992188,
+        "width": 285.1053466796875,
+        "height": 290.0550842285156,
+        "opacity": 0.860057,
+        "transform": "matrix(0.989949, 0, 0, 0.989949, 0, 2.26145)"
+      }
+    ]
+  },
+  {
+    "time": 498.70000000894106,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 338.05145263671875,
+        "y": 114.38752746582031,
+        "width": 366.70599365234375,
+        "height": 369.84002685546875,
+        "opacity": 0.294697,
+        "transform": "matrix(0.947262, 0.320459, -0.320459, 0.947262, 328.541, 20.3993)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 17.074981689453125,
+        "y": 130.53884887695312,
+        "width": 285.85003662109375,
+        "height": 290.8127136230469,
+        "opacity": 0.896856,
+        "transform": "matrix(0.992535, 0, 0, 0.992535, 0, 1.67966)"
+      }
+    ]
+  },
+  {
+    "time": 515.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 352.4527893066406,
+        "y": 114.76272583007812,
+        "width": 369.4275207519531,
+        "height": 372.4666748046875,
+        "opacity": 0.211858,
+        "transform": "matrix(0.942379, 0.334547, -0.334547, 0.942379, 342.859, 21.587)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.794189453125,
+        "y": 129.61447143554688,
+        "width": 286.41162109375,
+        "height": 291.3840637207031,
+        "opacity": 0.92585,
+        "transform": "matrix(0.994485, 0, 0, 0.994485, 0, 1.24092)"
+      }
+    ]
+  },
+  {
+    "time": 532.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 363.5058288574219,
+        "y": 115.0926513671875,
+        "width": 371.4564514160156,
+        "height": 374.4225158691406,
+        "opacity": 0.147678,
+        "transform": "matrix(0.938497, 0.345288, -0.345288, 0.938497, 353.825, 22.4967)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.581146240234375,
+        "y": 128.9131622314453,
+        "width": 286.83770751953125,
+        "height": 291.8175048828125,
+        "opacity": 0.948313,
+        "transform": "matrix(0.995964, 0, 0, 0.995964, 0, 0.908054)"
+      }
+    ]
+  },
+  {
+    "time": 548.7000000089411,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 371.9783935546875,
+        "y": 115.37010192871094,
+        "width": 372.97662353515625,
+        "height": 375.88641357421875,
+        "opacity": 0.0987728,
+        "transform": "matrix(0.935443, 0.353478, -0.353478, 0.935443, 362.218, 23.193)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.419097900390625,
+        "y": 128.37965393066406,
+        "width": 287.16180419921875,
+        "height": 292.14727783203125,
+        "opacity": 0.965429,
+        "transform": "matrix(0.99709, 0, 0, 0.99709, 0, 0.654828)"
+      }
+    ]
+  },
+  {
+    "time": 565.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 378.5444030761719,
+        "y": 115.59978485107422,
+        "width": 374.1336975097656,
+        "height": 376.99981689453125,
+        "opacity": 0.0617695,
+        "transform": "matrix(0.93303, 0.359799, -0.359799, 0.93303, 368.714, 23.7319)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.2940673828125,
+        "y": 127.96809387207031,
+        "width": 287.411865234375,
+        "height": 292.40167236328125,
+        "opacity": 0.978381,
+        "transform": "matrix(0.997958, 0, 0, 0.997958, 0, 0.459484)"
+      }
+    ]
+  },
+  {
+    "time": 582.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 383.5610046386719,
+        "y": 115.78382110595703,
+        "width": 375.0054016113281,
+        "height": 377.838134765625,
+        "opacity": 0.0348816,
+        "transform": "matrix(0.931159, 0.364613, -0.364613, 0.931159, 373.673, 24.1433)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.19879150390625,
+        "y": 127.65438842773438,
+        "width": 287.6024169921875,
+        "height": 292.59552001953125,
+        "opacity": 0.987791,
+        "transform": "matrix(0.99862, 0, 0, 0.99862, 0, 0.310596)"
+      }
+    ]
+  },
+  {
+    "time": 598.8000000089405,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 387.3341979980469,
+        "y": 115.92716979980469,
+        "width": 375.6540222167969,
+        "height": 378.4615478515625,
+        "opacity": 0.0164865,
+        "transform": "matrix(0.929737, 0.368224, -0.368224, 0.929737, 377.4, 24.4525)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.127166748046875,
+        "y": 127.41864013671875,
+        "width": 287.74566650390625,
+        "height": 292.7412414550781,
+        "opacity": 0.99423,
+        "transform": "matrix(0.999117, 0, 0, 0.999117, 0, 0.198701)"
+      }
+    ]
+  },
+  {
+    "time": 615.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 390.0804443359375,
+        "y": 116.03412628173828,
+        "width": 376.12225341796875,
+        "height": 378.9114990234375,
+        "opacity": 0.00537255,
+        "transform": "matrix(0.928693, 0.370848, -0.370848, 0.928693, 380.111, 24.6774)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.075027465820312,
+        "y": 127.24700927734375,
+        "width": 287.8499755859375,
+        "height": 292.8473205566406,
+        "opacity": 0.99812,
+        "transform": "matrix(0.999479, 0, 0, 0.999479, 0, 0.117233)"
+      }
+    ]
+  },
+  {
+    "time": 632.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 392.0086364746094,
+        "y": 116.11055755615234,
+        "width": 376.4491271972656,
+        "height": 379.2254638671875,
+        "opacity": 0.000417151,
+        "transform": "matrix(0.927957, 0.372688, -0.372688, 0.927957, 382.014, 24.8353)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.038375854492188,
+        "y": 127.1263427734375,
+        "width": 287.9232177734375,
+        "height": 292.9219055175781,
+        "opacity": 0.999854,
+        "transform": "matrix(0.999734, 0, 0, 0.999734, 0, 0.0599617)"
+      }
+    ]
+  },
+  {
+    "time": 648.7000000089411,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 393.23193359375,
+        "y": 116.15961456298828,
+        "width": 376.65570068359375,
+        "height": 379.4238586425781,
+        "opacity": 0,
+        "transform": "matrix(0.927487, 0.373854, -0.373854, 0.927487, 383.221, 24.9354)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.01507568359375,
+        "y": 127.04963684082031,
+        "width": 287.9698486328125,
+        "height": 292.9693603515625,
+        "opacity": 1,
+        "transform": "matrix(0.999895, 0, 0, 0.999895, 0, 0.0235609)"
+      }
+    ]
+  },
+  {
+    "time": 665.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "12",
+        "cls": "swipe-card swipe-card--front is-leaving",
+        "x": 393.8738098144531,
+        "y": 116.18551635742188,
+        "width": 376.7638244628906,
+        "height": 379.5276794433594,
+        "opacity": 0,
+        "transform": "matrix(0.927241, 0.374466, -0.374466, 0.927241, 383.854, 24.9879)"
+      },
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--back is-promoting",
+        "x": 16.002822875976562,
+        "y": 127.00929260253906,
+        "width": 287.994384765625,
+        "height": 292.9942626953125,
+        "opacity": 1,
+        "transform": "matrix(0.99998, 0, 0, 0.99998, 0, 0.00441723)"
+      }
+    ]
+  },
+  {
+    "time": 682.0000000089403,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 698.8000000089405,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 715.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 732.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 748.8000000089405,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 765.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 782.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 798.8000000089405,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 815.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 832.0000000089403,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 848.7000000089411,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 865.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 882.0000000089403,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 898.8000000089405,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 915.4000000089409,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 932.1000000089407,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  },
+  {
+    "time": 948.7000000089411,
+    "deck": {
+      "y": 127,
+      "height": 303
+    },
+    "cards": [
+      {
+        "id": "19",
+        "cls": "swipe-card swipe-card--front",
+        "x": 16,
+        "y": 127,
+        "width": 288,
+        "height": 293,
+        "opacity": 1,
+        "transform": "none"
+      }
+    ]
+  }
+]

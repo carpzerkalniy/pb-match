@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+dist/
+coverage/
+uploads/
+*.log
+outputs/stories-iskroteka/
+outputs/phone-site/
+outputs/site-*.tar.gz
+outputs/visual-qa/
+outputs/cloud-transfer/
+outputs/pb-match-cloud-*.zip
+# Local staging, reports, archives, and shared-memory maintenance notes.
+outputs/
+docs/sources/*
+!docs/sources/README.md
+docs/CODEX_MEMORY_MIGRATION.md
+docs/CODEX_MEMORY_MIGRATION_CRITIQUE.md
+docs/PENDING_SANCHO_REVIEW_V3.md

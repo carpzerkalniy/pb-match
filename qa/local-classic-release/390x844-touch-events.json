@@ -1,0 +1,450 @@
+[
+  {
+    "type": "blur",
+    "target": "title",
+    "drag": null,
+    "deciding": false,
+    "time": 503.6000000089407
+  },
+  {
+    "type": "blur",
+    "target": "swipe-card swipe-card--front",
+    "drag": null,
+    "deciding": false,
+    "time": 512.6000000089407
+  },
+  {
+    "type": "blur",
+    "target": "guest-info",
+    "drag": null,
+    "deciding": false,
+    "time": 609.2000000029802
+  },
+  {
+    "type": "pointerdown",
+    "x": 339,
+    "y": 496.21875,
+    "pointerType": "touch",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 648.2000000029802
+  },
+  {
+    "type": "pointerup",
+    "x": 339,
+    "y": 496.21875,
+    "pointerType": "touch",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 655.7000000029802
+  },
+  {
+    "type": "lostpointercapture",
+    "x": 339,
+    "y": 496.21875,
+    "pointerType": "touch",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 655.8000000119209
+  },
+  {
+    "type": "blur",
+    "target": "reaction reaction--nope",
+    "drag": null,
+    "deciding": false,
+    "time": 656.6000000089407
+  },
+  {
+    "type": "click",
+    "x": 339,
+    "y": 496,
+    "pointerType": "touch",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 656.8000000119209
+  },
+  {
+    "type": "blur",
+    "target": "guest-info",
+    "drag": null,
+    "deciding": false,
+    "time": 660.4000000059605
+  },
+  {
+    "type": "pointerdown",
+    "x": 337,
+    "y": 177.1875,
+    "pointerType": "touch",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 785.4000000059605
+  },
+  {
+    "type": "pointerup",
+    "x": 337,
+    "y": 177.1875,
+    "pointerType": "touch",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 789.5
+  },
+  {
+    "type": "blur",
+    "target": "guest-dialog-close",
+    "drag": null,
+    "deciding": false,
+    "time": 794.3000000119209
+  },
+  {
+    "type": "lostpointercapture",
+    "x": 337,
+    "y": 177.1875,
+    "pointerType": "touch",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 794.5
+  },
+  {
+    "type": "blur",
+    "target": "guest-info",
+    "drag": null,
+    "deciding": false,
+    "time": 795.3000000119209
+  },
+  {
+    "type": "click",
+    "x": 337,
+    "y": 177,
+    "pointerType": "touch",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 795.3000000119209
+  },
+  {
+    "type": "blur",
+    "target": "swipe-card swipe-card--front",
+    "drag": null,
+    "deciding": false,
+    "time": 804.5
+  },
+  {
+    "type": "blur",
+    "target": "guest-info",
+    "drag": null,
+    "deciding": false,
+    "time": 976.2000000029802
+  },
+  {
+    "type": "pointermove",
+    "x": 325,
+    "y": 801.5,
+    "pointerType": "mouse",
+    "target": "tab",
+    "drag": null,
+    "deciding": false,
+    "time": 1032.7000000029802
+  },
+  {
+    "type": "pointerdown",
+    "x": 325,
+    "y": 801.5,
+    "pointerType": "mouse",
+    "target": "tab",
+    "drag": null,
+    "deciding": false,
+    "time": 1032.800000011921
+  },
+  {
+    "type": "pointerup",
+    "x": 325,
+    "y": 801.5,
+    "pointerType": "mouse",
+    "target": "tab",
+    "drag": null,
+    "deciding": false,
+    "time": 1033.1000000089407
+  },
+  {
+    "type": "click",
+    "x": 325,
+    "y": 801,
+    "pointerType": "mouse",
+    "target": "tab",
+    "drag": null,
+    "deciding": false,
+    "time": 1033.2000000029802
+  },
+  {
+    "type": "blur",
+    "target": "tab on",
+    "drag": null,
+    "deciding": false,
+    "time": 1034.5
+  },
+  {
+    "type": "pointermove",
+    "x": 65,
+    "y": 809.5,
+    "pointerType": "mouse",
+    "target": "tab",
+    "drag": null,
+    "deciding": false,
+    "time": 1078.2000000029802
+  },
+  {
+    "type": "pointerdown",
+    "x": 65,
+    "y": 809.5,
+    "pointerType": "mouse",
+    "target": "tab",
+    "drag": null,
+    "deciding": false,
+    "time": 1078.300000011921
+  },
+  {
+    "type": "blur",
+    "target": "title",
+    "drag": null,
+    "deciding": false,
+    "time": 1078.6000000089407
+  },
+  {
+    "type": "pointerup",
+    "x": 65,
+    "y": 809.5,
+    "pointerType": "mouse",
+    "target": "tab",
+    "drag": null,
+    "deciding": false,
+    "time": 1078.7000000029802
+  },
+  {
+    "type": "click",
+    "x": 65,
+    "y": 809,
+    "pointerType": "mouse",
+    "target": "tab",
+    "drag": null,
+    "deciding": false,
+    "time": 1078.7000000029802
+  },
+  {
+    "type": "blur",
+    "target": "tab on",
+    "drag": null,
+    "deciding": false,
+    "time": 1080.2000000029802
+  },
+  {
+    "type": "pointermove",
+    "x": 245.5,
+    "y": 701.5,
+    "pointerType": "mouse",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 1151
+  },
+  {
+    "type": "pointerdown",
+    "x": 245.5,
+    "y": 701.5,
+    "pointerType": "mouse",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 1151.2000000029802
+  },
+  {
+    "type": "blur",
+    "target": "title",
+    "drag": null,
+    "deciding": false,
+    "time": 1152.300000011921
+  },
+  {
+    "type": "pointerup",
+    "x": 245.5,
+    "y": 701.5,
+    "pointerType": "mouse",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 1152.6000000089407
+  },
+  {
+    "type": "click",
+    "x": 245,
+    "y": 701,
+    "pointerType": "mouse",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 1152.7000000029802
+  },
+  {
+    "type": "blur",
+    "target": "reaction reaction--like",
+    "drag": null,
+    "deciding": true,
+    "time": 1153.1000000089407
+  },
+  {
+    "type": "pointerdown",
+    "x": 177.10000610351562,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": {},
+    "drag": null,
+    "deciding": false,
+    "time": 2821.6000000089407
+  },
+  {
+    "type": "pointermove",
+    "x": 189.8800048828125,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": {},
+    "drag": {
+      "horizontal": false,
+      "dx": 0
+    },
+    "deciding": false,
+    "time": 2855.2000000029802
+  },
+  {
+    "type": "lostpointercapture",
+    "x": 202.66000366210938,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": {},
+    "drag": {
+      "horizontal": true,
+      "dx": 12.779998779296875
+    },
+    "deciding": false,
+    "time": 2904.800000011921
+  },
+  {
+    "type": "pointermove",
+    "x": 202.66000366210938,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": "swipe-card swipe-card--front is-dragging",
+    "drag": {
+      "horizontal": true,
+      "dx": 12.779998779296875
+    },
+    "deciding": false,
+    "time": 2904.800000011921
+  },
+  {
+    "type": "pointermove",
+    "x": 215.44000244140625,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": "swipe-card swipe-card--front is-dragging",
+    "drag": {
+      "horizontal": true,
+      "dx": 25.55999755859375
+    },
+    "deciding": false,
+    "time": 2954.300000011921
+  },
+  {
+    "type": "pointermove",
+    "x": 228.22000122070312,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": "swipe-card swipe-card--front is-dragging",
+    "drag": {
+      "horizontal": true,
+      "dx": 38.339996337890625
+    },
+    "deciding": false,
+    "time": 2989.5
+  },
+  {
+    "type": "pointermove",
+    "x": 241,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": "swipe-card swipe-card--front is-dragging",
+    "drag": {
+      "horizontal": true,
+      "dx": 51.1199951171875
+    },
+    "deciding": false,
+    "time": 3021
+  },
+  {
+    "type": "pointermove",
+    "x": 253.77999877929688,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": "swipe-card swipe-card--front is-dragging",
+    "drag": {
+      "horizontal": true,
+      "dx": 63.899993896484375
+    },
+    "deciding": false,
+    "time": 3055.5
+  },
+  {
+    "type": "pointermove",
+    "x": 266.55999755859375,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": "swipe-card swipe-card--front is-dragging",
+    "drag": {
+      "horizontal": true,
+      "dx": 76.67999267578125
+    },
+    "deciding": false,
+    "time": 3088.4000000059605
+  },
+  {
+    "type": "pointermove",
+    "x": 279.3399963378906,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": "swipe-card swipe-card--front is-dragging",
+    "drag": {
+      "horizontal": true,
+      "dx": 89.45999145507812
+    },
+    "deciding": false,
+    "time": 3121.300000011921
+  },
+  {
+    "type": "pointerup",
+    "x": 279.3399963378906,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": "swipe-card swipe-card--front is-dragging",
+    "drag": {
+      "horizontal": true,
+      "dx": 102.239990234375
+    },
+    "deciding": false,
+    "time": 3238.800000011921
+  },
+  {
+    "type": "lostpointercapture",
+    "x": 279.3399963378906,
+    "y": 336.239990234375,
+    "pointerType": "touch",
+    "target": "swipe-card swipe-card--front is-leaving",
+    "drag": null,
+    "deciding": true,
+    "time": 3240.6000000089407
+  }
+]
